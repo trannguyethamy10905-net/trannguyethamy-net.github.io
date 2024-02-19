@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>Contact Us</h1>
+    <style>
+        input, textarea, button {
+        width: 100%;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+        padding: 10px;
+        border: none;
+        box-sizing: border-box;        
+        }
+    </style>
+  </head>
+  <body>
+    <form method="post" action="/contact-form-data/">
+      <input name="readername" type="text" placeholder="Jane Smith" />
+      <input name="readeremail" type="email" placeholder="janesmith@mail.com" />
+      <textarea name="message" rows="5" cols="30" placeholder="Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </body>  
+</html>
